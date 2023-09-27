@@ -23,6 +23,7 @@ class Example extends React.Component {
     // We read the example model data into the state variable 'name'
     this.state = {
       name: window.models.exampleModel().name,
+      motto: window.models.exampleModel().motto,
       counter: 0,
       inputValue: '',
       buttonWasClicked: '',
@@ -103,7 +104,11 @@ class Example extends React.Component {
         <h1>Project 4 React.js Example</h1>
 
         <div className="motto-update">
-          {/* Your problem #1 motto displaying and updating widget goes here */}
+          <form>
+            <p>Our name is &ldquo; {this.state.name} &rdquo;</p>
+            <label htmlFor="motto">Our motto is: (Click to change)</label>
+            <input type="text" id="motto" placeholder={this.state.motto}></input>
+          </form>
         </div>
 
         <p>
