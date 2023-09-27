@@ -4,3 +4,59 @@ CSS for the Project 4, Problem 2 States component
 Since CSS uses a global name space for classes we should use names starting with
 states- here.
 */
+.states-container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.states-input-container {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 50px;
+}
+
+.states-input-container form label {
+  font-size: 1.2em;
+}
+
+.states-input-container form input {
+  font-size: 1.2em;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.states-display-container {
+  margin: 0 auto;
+}
+
+.states-display-container hr {
+  width: 50%;
+}
+
+.states-display-container h1 {
+  text-align: center;
+}
+
+.states-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.states-list-container ol {
+  list-style-position: inside;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.states-list-container ol li {
+  font-size: 1.2em;
+}
+
+/* .motto-update form input::placeholder {
+  color: rgb(58, 58, 58);
+} */
