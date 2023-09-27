@@ -3,6 +3,9 @@
 
 /* class="container" - Sets some margins around the element so it is spaced from
                        the top, bottom, and sides of the window. */
+body {
+  margin: 0;
+}
 
 .container {
   padding: 40px 10px;
