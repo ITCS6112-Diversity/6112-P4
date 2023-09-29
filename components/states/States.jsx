@@ -9,7 +9,6 @@ import './States.css';
 class States extends React.Component {
   constructor(props) {
     super(props);
-    console.log('window.models.states', window.models.states);
     this.state = {
       states: window.models.states(),
       updatedStates: [],
