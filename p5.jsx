@@ -9,7 +9,6 @@ import './styles/main.css';
 ReactDOM.render(
   <div>
     <Header/>
-    <Navbar />
     <HashRouter>
       <div className="navbar">
         <Link className="navbar-link" to="/example">Example</Link>
@@ -22,27 +21,3 @@ ReactDOM.render(
   
   document.getElementById('reactapp'),
 );
-
-// function Switcher() {
-//   const [switcher, setSwitcher] = useState(true);
-//   const switcherOnClick = () => setSwitcher(switcherBool => !switcherBool);
-//   return (
-//      <div>
-//         <div className="switch-button-container">
-//           <button className="switch-button" onClick={switcherOnClick}>
-//             Switch to {switcher ? "States" : "Example"}
-//           </button>
-//         </div>
-//         {switcher && <Example/> }
-//         {!switcher && <States /> }
-//      </div>
-//   );
-// }
-
-function Navbar() {
-  return (
-    <div>
-
-    </div>
-  );
-}
